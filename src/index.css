@@ -1,0 +1,74 @@
+/* Importing a font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+h2, .calculator h3, #result {
+  font-family: 'Montserrat', sans-serif; /* Font family */
+  color: whitesmoke
+}
+
+body {
+  background-image: url(./Components/Images/rainy-japanese-cherry-garden-bridge-sakura_107791-18180.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  background-color: rgba(117, 48, 69, 0.8); /* Use rgba for transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input1, .input2 {
+  display: block;
+  margin: 0 auto; 
+  text-align: center;
+  border-radius: 8px; /* Make input boxes more round */
+  padding: 8px; /* Add padding for better appearance */
+  width: 50%; /* Set the width to 70% */
+  outline: none; /* Remove the default outline */
+}
+
+.calculator h3 {
+  display: block;
+  text-align: center;
+  color: whitesmoke;
+  margin: 0; /* Adjust margin as needed */
+  padding: 10px; /* Add padding as needed */
+}
+
+#result {
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #A96687;
+  border: none;
+  border-radius: 8px; /* Make button more round */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for color change */
+}
+
+button:hover {
+  background-color: #913456; /* Change color on hover */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  text-align: right;
+  color: whitesmoke;
+}
